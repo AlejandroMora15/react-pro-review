@@ -2,6 +2,8 @@ import { Counter } from './bases/Counter'
 import { CounterBy } from './bases/CounterBy'
 import { CounterEffect } from './bases/CounterEffect'
 import { CounterHook } from './bases/CounterHook'
+import { CounterReducerComponent } from './counterReducer/CounterReducer'
+// import { CounterReducerComponent } from './bases/CounterReducer'
 
 function App () {
   return (
@@ -10,6 +12,7 @@ function App () {
       <CounterBy initialValue={10} />
       <CounterEffect initialValue={7} />
       <CounterHook />
+      <CounterReducerComponent />
     </>
   )
 }
